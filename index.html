@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favourite Fruits & Vegetables</title>
+    <link rel="stylesheet" href="./style.css"">
+</head>
+<body>
+    <h1>Your Favourite Fruits & Vegetables Anytime Anywhere🧐</h1>
+    <h2 id="headingF">Browse fruits from collection</h2>
+    <input type="text" id="searchInput" placeholder="Search...">
+    <button onclick="searchItem()" type="button">Search</button>
+    <div id="fruits">
+    <ul id="list">
+        <li>
+        <div class="Apple">
+            <p>Apple</p>
+            <img class="img1" src="./apple.jpeg">
+        </div>
+        </li>
+        <li>
+            <div class="Banana">
+                <p>Banana</p>
+                <img class="img1" src="./banana.jpeg">
+            </div>
+        </li>
+        <li>
+            <div class="Mango">
+                <p>Mango</p>
+                <img class="img1" src="./mango.jpeg">
+            </div>
+        </li>
+        <li>
+            <div class="Orange">
+                <p>Orange</p>
+                <img class="img1" src="./orange.jpeg">
+            </div>
+        </li>
+        <li>
+            <div class="Grapes">
+                <p>Grapes</p>
+                <img class="img1" src="./grapes.jpeg">
+            </div>
+        </li>
+    </ul>
+    <h2 id="headingV">Browse vegetables from collection</h2>
+    <div>
+        <ul id="veg">
+            <li>
+                <div class="Tomato">
+                    <p>Tomato</p>
+                    <img class="img1" src="./TOMATO.jpeg">
+                </div>
+            </li>
+            <li>
+                <div class="Potato">
+                    <p>Potato</p>
+                    <img class="img1" src="./Potato.jpeg">
+                </div>
+            </li>
+            <li>
+                <div class="Carrot">
+                    <p>Carrot</p>
+                    <img class="img1" src="./carrot.jpeg">
+                </div>
+            </li>
+            <li>
+                <div class="Broccoli">
+                    <p>Broccoli</p>
+                    <img class="img1" src="./Broccoli.jpeg">
+                </div>
+            </li>
+            <li>
+                <div class="Onion">
+                    <p>Onion</p>
+                    <img class="img1" src="./Onion.jpeg">
+                </div>
+            </li>
+        </ul>
+    </div>
+    </div>
+    <div id="greet">
+        <button onclick="showItems()" type="button" id="btn">Show</button>
+        <p id="count" class="hidden">Thanks for Visiting!</p>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

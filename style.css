@@ -1,0 +1,85 @@
+input {
+  padding: 8px;
+  width: 200px;
+  height: 0.7rem;
+}
+
+button {
+  padding: 8px;
+  cursor: pointer;
+  height: 2rem;
+  margin: 10px;
+}
+h1 {
+    font-size: 2.5rem;
+    color: #f8c10c;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 #71eef7;
+}
+#headingF {
+    display: grid;
+    font-size: 1.5rem;
+    color: #cd0afd;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 #3df8f8;
+    margin: 2px;
+}
+#headingV {
+    display: grid;
+    font-size: 1.5rem;
+    color: #b011fa;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 #79ddfc;
+    margin-top: 280px;
+    
+}
+
+#list {
+    height: 50px;
+    width: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.hidden {
+  display: none;
+}
+body {
+    background-color: rgb(217, 247, 247);
+    font-family: cursive;
+    padding: 2px;
+}
+img {
+    width: 200px;
+    height: 200px;
+}
+
+#veg{
+    height: 30px;
+    width: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;  
+    padding: 10px;
+    margin-left: 10px;
+    gap: 50px;
+}
+button:hover {
+  background-color: rgb(248, 28, 28);
+  color: rgb(19, 15, 247);
+}
+
+li:hover {
+  background-color: rgb(223, 238, 86);
+  cursor: pointer;
+  color: rgb(19, 15, 247);
+}
+#greet{
+    margin-top: 220px;
+}
+h1:hover {
+    color: rgb(248, 28, 28);
+    cursor: pointer;
+    text-shadow: 3px 0 #71eef7;
+}
